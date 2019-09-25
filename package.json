@@ -1,0 +1,35 @@
+{
+  "name": "base-react",
+  "version": "0.0.1",
+  "description": "Template React App",
+  "main": "/src/App.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/numical/base-react.git"
+  },
+  "author": "Mike Evans <mike.evans@numical.com>",
+  "license": "MIT",
+  "dependencies": {
+    "core-js": "^3.2.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "regenerator-runtime": "^0.13.3",
+    "webpack": "^4.39.2",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack-cli": "^3.3.7"
+  }
+}
