@@ -5,7 +5,8 @@
   "main": "/src/App.js",
   "scripts": {
     "dev": "webpack-dev-server",
-    "build": "webpack --mode=production"
+    "build": "rimraf public && webpack --mode=production",
+    "wipe": "rimraf public && rimraf .git"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
     "babel-loader": "^8.0.6",
     "copy-webpack-plugin": "^5.0.4",
     "css-loader": "^3.2.0",
+    "rimraf": "^3.0.0",
     "style-loader": "^1.0.0",
     "webpack-cli": "^3.3.7"
   }
